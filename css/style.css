@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* header styling */
+
+header::before{
+    content: ' ';
+    background-image: url(../assets/laptop1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.25;
+
+}
+
+header .logo{
+    padding: 40px;
+    font-size: 30%;
+    width: 131px;
+    height: 109px;
+    top: 94;
+    left: 100;
+    
+}
+
+.logo img{
+    position: relative;
+    padding: 20px;
+    margin-left: 20px;
+
+}
