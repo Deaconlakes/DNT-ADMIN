@@ -1,8 +1,20 @@
+
+
+/* admin-page css styling */
+
+
+
 body{
     overflow: hidden;
 }
+header{
+    height: 150px;
+    background-color: #FE0000;
+    position: relative;
+}
 
-body::before{
+
+header::before{
     content: ' ';
     background-image: url(../assets/laptop3.jpg);
     background-repeat: no-repeat;
@@ -17,94 +29,184 @@ body::before{
 
 }
 
-header::before{
-    content: ' ';
-    background-image: url(../assets/admin.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.25;
 
+.nav-bars{
+    border: 2px #FE0000 solid;
+    margin-top: 43px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-header{
-    height: 250px;
+.nav-bars nav{
+    padding: 12px 13px 12px 14px;
+}
+
+input[type=text] {
+    width: 319px;
+    box-sizing: border-box;
+    border: 2px solid #FE0000;
+    border-radius: 4px;
+    font-size: 16px;
     background-color: #FE0000;
-    position: relative;
-    align-items: center;
-}
-
-header .healine{
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-header .healine p{
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 13px 12px 14px;
+    transition: width 0.4s ease-in-out;
     color: #fff;
-    align-items: center;
-    font-size: 30px;
-    text-align: center;
-    padding: 83px 20px 20px 20px;
+  }
+
+  .nav-bars nav form input[placeholder=searchin..] {
+    
+  }
+
+  .fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    margin-left: -32px;
+    color: #fff;
+    
 }
 
-.dropbtn {
+
+.nav-bars .helps{
+    float: right;
+    margin-top: -29px;
+    margin-right: -128px;
+}
+
+.helps a{
+    padding: 3px 133px 5px 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.helps .fa-solid{
+    color: #FE0000;
+}
+
+.hrr hr{
+    color: #FE0000;
+    font-size: 20px;
+}
+
+.rols{
+    margin-top: 30px;
+    margin-left: 72px;
+}
+
+.rols .requests th{
+    border: 1px solid #FE0000;
+    padding: 10px 55px 9px 55px;
+}
+
+.requests tr th a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.requests th:hover{
+    background-color: #FE0000;
+}
+
+.requests th a:hover{
+    color: #fff;
+    background-color: #FE0000;
+}
+
+.requests th:active{
+    background-color: #FE0000;
+}
+
+.requests th a:active{
+    color: #fff;
+    
+}
+
+
+/* finance statement page styling */
+
+header .finance-head{
+    height: 140px;
+}
+
+
+.navs{
+    border: 2px solid #FE0000;
+    margin: 20px 20px 20px 20px;
+}
+
+.navs nav{
+    padding: 20px;
+}
+
+.navs nav button{
+  width: 20%;
   background-color: #FE0000;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 7px 5px;
+  /* margin: 8px 0; */
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin: 112px -233px 20px 583px
+.navs nav button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "poppins" sans-serif;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.navs .help-signout{
+    float: right;
+    margin-top: 5px;
+    margin-right: -128px;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.navs .help-signout a{
+    padding: 3px 133px 5px 4px;
+    text-decoration: none;
+    color: black;
+}
+.help-signout .fa-solid{
+    color: #FE0000;
 }
 
-.dropdown-content a:hover {background-color: #b3adad}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+.forms{
+    margin-left: 88px;
+}
+.forms form{
+    
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #7d6363;
+.forms .name {
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
 }
 
-.dropdown .fa-solid{
-  margin-left: 10px;
-  background-color: #7d6363;
-  padding: 16px;
-  margin-left: -4px;
-  margin-top: 10px;
-  cursor: pointer;
-
+.forms .date{
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
+}
+.forms .from{
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
 }
 
-.dropdown .fa-caret-down{
-  /* font-size: 30px; */
+.forms .to{
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
 }
+
+::placeholder{
+    color: #fff;
+}
+
 

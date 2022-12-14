@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
+    <title>Finance-Page</title>
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/unsemantic-grid-responsive-table.css">
@@ -13,48 +13,44 @@
     <script src="https://use.fontawesome.com/fe84c42321.js"></script>
 </head>
 <body>
-    <header>
+
+    <header class="finance-head">
 
     </header>
 
-    <div class="nav-bars">
+    <div class="navs">
         <nav>
-            <form action="">
-                <input type="text" name="search" placeholder="Search..">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </form>
-            <div class="helps">
+            <button><a href="#">FINANACIAL STATEMENT</a></button>
+            <button><a href="#">ANALYSIS</a></button>
+            <div class="help-signout">
                 <i class="fa-solid fa-circle-question"></i>
                 <a href="#">Help</a>
-
+        
                 <i class="fa-solid fa-user">!</i>
                 <a href="index.html">SignOut</a>
-
+        
             </div>
-
-        </nav>
         
+         </nav>
+
+   
     </div>
 
-    <div class="hrr">
-        <hr>
-    </div>
-
-    <div class="rols">
-        <table class="requests">
-            <tr>
-                <th><a href="#">All Request</a></th>
-                <th><a href="#">Open Request</a></th>
-                <th><a href="#">Closed Request</a></th>
-                <th><a href="#">Refresh</a></th>
-            </tr>
-
-        </table>
-    </div>
-
-    <div class="sec-rol">
-        
+    <div class="forms">
+        <form action="#">
+            <input type="text" name="search" placeholder="Search..">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="name" type="text" placeholder="Name:">
+                    <input class="date" type="text" placeholder="Date:">
+                    <input class="from" type="text" placeholder="From:">
+                    <input class="to" type="text" placeholder="To:">
+        </form>
 
     </div>
+
+    
+
+
+    
 </body>
 </html>
