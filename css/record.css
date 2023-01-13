@@ -1,0 +1,117 @@
+body{
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    background-color: #FE0000;
+    position: relative;
+}
+
+
+header::before{
+    content: ' ';
+    background-image: url(../assets/laptop3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.25;
+
+}
+
+
+.nav-bars{
+    border: 2px #FE0000 solid;
+    margin-top: 43px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-bars nav{
+    padding: 12px 13px 12px 14px;
+}
+
+input[type=text] {
+    width: 319px;
+    box-sizing: border-box;
+    border: 2px solid #FE0000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #FE0000;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 13px 12px 14px;
+    transition: width 0.4s ease-in-out;
+    color: #fff;
+  }
+
+  .nav-bars nav form input[placeholder=searchin..] {
+    
+  }
+
+  .fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    margin-left: -32px;
+    color: #fff;
+    
+}
+
+
+.nav-bars .helps{
+    float: right;
+    margin-top: -29px;
+    margin-right: -128px;
+}
+
+.helps a{
+    padding: 3px 133px 5px 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.helps .fa-solid{
+    color: #FE0000;
+}
+
+.hrr hr{
+    color: #FE0000;
+    font-size: 20px;
+}
+
+.rols{
+    margin-top: 30px;
+    margin-left: 72px;
+}
+
+.rols .requests th{
+    border: 1px solid #FE0000;
+    padding: 10px 55px 9px 55px;
+}
+
+.requests tr th a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.requests th:hover{
+    background-color: #FE0000;
+}
+
+.requests th a:hover{
+    color: #fff;
+    background-color: #FE0000;
+}
+
+.requests th:active{
+    background-color: #FE0000;
+}
+
+.requests th a:active{
+    color: #fff;
+    
+}
