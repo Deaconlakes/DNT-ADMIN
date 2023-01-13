@@ -117,7 +117,7 @@ input[type=text] {
 }
 
 
-/* forms */
+/* forms*/
 
 
 .forms{
@@ -157,6 +157,10 @@ input[type=text] {
 ::placeholder{
     color: #fff;
 }
+
+
+
+/* section-a */
 
 
 .section-a{
