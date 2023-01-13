@@ -25,7 +25,7 @@ header::before{
 
 
 .nav-bars{
-    border: 2px #FE0000 solid;
+    border: 2px #770d0d solid;
     margin-top: 43px;
     margin-left: 30px;
     margin-right: 30px;
@@ -115,3 +115,47 @@ input[type=text] {
     color: #fff;
     
 }
+
+
+/* forms */
+
+
+.forms{
+    margin-left: 88px;
+}
+.forms form{
+    
+}
+
+.forms .name {
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
+}
+
+.forms .date{
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
+}
+.forms .from{
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
+}
+
+.forms .to{
+    background-color: #FE0000;
+    width: 130px;
+    margin-left: 10px;
+    
+}
+
+::placeholder{
+    color: #fff;
+}
+
+
