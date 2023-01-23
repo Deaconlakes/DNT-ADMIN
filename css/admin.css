@@ -335,6 +335,11 @@ header .finance-head{
     
 }
 
+.grid-20 .forms2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .section-b .grid-80{
     margin-left: -3em;
     
@@ -355,6 +360,16 @@ header .finance-head{
     border-collapse: collapse;
     /* padding: 30px; */
 
+  }
+
+
+
+  /* upload page css */
+
+  .upload{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
   }
 
 
